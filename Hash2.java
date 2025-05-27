@@ -13,6 +13,6 @@ class Hash2 extends TabelaHash {
     }
     
     public String getNome() {
-        return "Hash2 - Hash Polinomial (djb2)";
+        return "Hash2";
     }
-}
+}  

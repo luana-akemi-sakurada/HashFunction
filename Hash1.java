@@ -13,6 +13,6 @@ class Hash1 extends TabelaHash {
     }
     
     public String getNome() {
-        return "Hash1 - Hash por Divisão (soma dos caracteres)";
+        return "Hash1";
     }
 }

@@ -1,3 +1,4 @@
+//ComparadorTabelasHash.java
 import java.io.*;
 import java.util.*;
 
@@ -64,13 +65,8 @@ public class ComparadorTabelasHash {
         int nomesInseridos = 0;
         
         for (String nome : nomes) {
-            try {
-                tabela.inserir(nome);
-                nomesInseridos++;
-            } catch (RuntimeException e) {
-                System.out.println("Tabela cheia! Inseridos " + nomesInseridos + " nomes de " + nomes.size());
-                break;
-            }
+            tabela.inserir(nome);
+            nomesInseridos++;
         }
         
         long fimInsercao = System.nanoTime();
