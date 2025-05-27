@@ -36,7 +36,6 @@ abstract class TabelaHash {
         distribuicao = new int[capacidade];
         
         // Reset contadores
-        int tamAnterior = tamanho;
         tamanho = 0;
         int colisoesAntes = colisoes;
         colisoes = 0;

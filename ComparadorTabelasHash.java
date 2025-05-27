@@ -34,8 +34,7 @@ public class ComparadorTabelasHash {
             gerarRelatorioComparativo(stats1, stats2);
             
         } catch (Exception e) {
-            System.err.println("Erro durante execução: " + e.getMessage());
-            e.printStackTrace();
+            System.err.println("Ocorreu um erro inesperado. Verifique os dados e tente novamente.");
         }
     }
     
